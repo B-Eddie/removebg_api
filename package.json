@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@now/python": "^1.2.3",
+    "@vercel/python": "^4.3.1"
+  },
+  "name": "removebg_api",
+  "version": "1.0.0"
+}

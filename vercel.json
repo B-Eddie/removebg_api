@@ -1,8 +1,16 @@
 {
+    "version": 2,
     "functions": {
-      "api/*.py": {
-        "runtime": "python3.8"
+      "api/strings.py": {
+        "runtime": "vercel-python@0.5.0",
+        "memory": 1024
       }
-    }
+    },
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "api/strings.py"
+      }
+    ]
   }
   
